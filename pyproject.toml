@@ -1,0 +1,19 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name          = "ingestipy"
+version       = "0.1.0"
+description   = "A script that combines project files into a single text file for easier use with AI agents."
+authors       = [ { name="Usman Mehmood", email="usmanmehmood55@gmail.com" }, ]
+readme        = "README.md"
+license       = { text="MIT" }
+keywords      = [ "ingest", "concatenate", "files", "AI", "utility" ]
+dependencies  = []
+
+[project.urls]
+"Homepage"    = "https://github.com/usmanmehmood55/ingestipy"
+
+[project.scripts]
+ingestipy     = "ingestipy.ingestipy:main"

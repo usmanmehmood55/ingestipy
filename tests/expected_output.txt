@@ -1,0 +1,27 @@
+// file: file1.txt:
+Hi I am the file 1.
+I do file 1 stuff.
+I have 10 empty lines in the end.
+
+
+
+
+
+
+
+
+
+
+
+// file: subdir\file2.txt:
+Hi I am the file 2.
+I do file 2 stuff.
+
+
+
+
+
+
+I have this file 2 line in the end.
+
+
